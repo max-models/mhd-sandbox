@@ -2,5 +2,5 @@
 
 
 def main() -> None:
-    """Print a greeting; the entry point of the ``template-python`` command."""
+    """Print a greeting; the entry point of the ``mhd-sandbox`` command."""
     print("Hello, world")
