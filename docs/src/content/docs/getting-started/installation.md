@@ -17,18 +17,20 @@ Install the package and its requirements with pip:
 pip install -e .
 ```
 
-Run the code with:
+Check it with:
 
 ```bash
-mhd-sandbox
+python -c "import mhd_sandbox; print(mhd_sandbox.__version__)"
 ```
+
+The tutorials also need Matplotlib and Jupyter, which the `docs` extra installs.
 
 ## Optional extras
 
 | Extra  | Installs                                                |
 | ------ | ------------------------------------------------------- |
 | `test` | `pytest` and `coverage`                                 |
-| `docs` | the notebook runner and griffe for the API reference    |
+| `docs` | Matplotlib, the notebook runner and griffe for the API reference |
 | `dev`  | formatters and linters, plus the `test` and `docs` extras |
 
 ```bash
