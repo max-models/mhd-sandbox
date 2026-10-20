@@ -6,7 +6,7 @@ import { defineDocs } from '@max-models/starlight-theme';
 export default defineDocs({
 	repo: 'mhd-sandbox',
 	title: 'mhd-sandbox',
-	description: 'Template repository for Python projects.',
+	description: 'Learning ideal MHD: finite-volume solvers on a periodic 2D grid.',
 	pythonPackage: 'mhd_sandbox',
 	nav: [
 		{ label: 'Getting started', link: '/getting-started/installation/' },
