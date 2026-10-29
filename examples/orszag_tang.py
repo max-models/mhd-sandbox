@@ -1,6 +1,6 @@
-"""Run the Orszag-Tang vortex.
+"""Orszag-Tang vortex.
 
-The standard 2D ideal MHD test: smooth, periodic vortices in the velocity and magnetic field
+This example runs the Orszag-Tang vortex, the standard 2D ideal MHD test: smooth, periodic vortices in the velocity and magnetic field
 steepen into shocks that interact. The figure shows the density at t = 0.5 on a 128 x 128 grid,
 with the magnetic field lines.
 """
