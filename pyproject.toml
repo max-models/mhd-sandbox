@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "Learning ideal MHD: finite-volume solvers on a periodic 2D grid."
 readme = "README.md"
 keywords = [ "mhd", "magnetohydrodynamics", "finite-volume", "plasma" ]
-license = { file = "LICENSE.txt" }
 authors = [ { name = "Max" } ]
 requires-python = ">=3.10"
 classifiers = [
