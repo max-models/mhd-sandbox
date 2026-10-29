@@ -27,5 +27,5 @@ The state is conservative, `[rho, rho vx, rho vy, rho vz, E, Bx, By, Bz]` per ce
 with the magnetic permeability set to one. `primitive_variables()` returns density, velocity,
 magnetic field and pressure.
 
-The [tutorials](/mhd-sandbox/tutorials/) run the classic test problems, and the
+The [examples](/mhd-sandbox/examples/) run the classic test problems, and the
 [API reference](/mhd-sandbox/api/mhd_sandbox/) documents every class and function.
