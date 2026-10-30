@@ -27,13 +27,13 @@ jobs:
       pre-build: uv run python docs/tools/examples.py
       smoke-paths: |
         getting-started/installation/index.html
-        tutorials/index.html
-        tutorials/orszag-tang/index.html
-        tutorials/test-problems/index.html
-        tutorials/multifluid/index.html
-        full-examples/index.html
-        full-examples/orszag-tang/index.html
+        examples/index.html
+        examples/orszag-tang/index.html
+        examples/test-problems/index.html
+        examples/multifluid/index.html
+        example-scripts/index.html
+        example-scripts/orszag-tang/index.html
         api/mhd_sandbox/index.html
         api/mhd_sandbox/solver/index.html
-        tutorials/orszag-tang/orszag_tang.ipynb
-        full-examples/orszag-tang/plot-1.png
+        examples/orszag-tang/orszag_tang.ipynb
+        example-scripts/orszag-tang/plot-1.png

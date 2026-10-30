@@ -23,7 +23,7 @@ Check it with:
 python -c "import mhd_sandbox; print(mhd_sandbox.__version__)"
 ```
 
-The tutorials also need Matplotlib and Jupyter, which the `docs` extra installs.
+The examples also need Matplotlib and Jupyter, which the `docs` extra installs.
 
 ## Optional extras
 

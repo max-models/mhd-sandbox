@@ -69,8 +69,8 @@ pip install -e ".[dev]"
 ```
 
 The `test`, `docs` and `dev` extras install the test runner, the
-documentation tooling (Matplotlib and Jupyter, for the tutorials) and
-the linters.
+documentation tooling (Matplotlib and Jupyter, for the examples) and the
+linters.
 
 ## Development
 
