@@ -11,6 +11,14 @@ analysis](https://github.com/max-models/mhd-sandbox/actions/workflows/static_ana
 [![PyPI](https://img.shields.io/pypi/v/mhd-sandbox.png)](https://pypi.org/project/mhd-sandbox/)
 [![Python](https://img.shields.io/pypi/pyversions/mhd-sandbox.png)](https://pypi.org/project/mhd-sandbox/)
 
+> **Moved to carafe.** The MHD models of max-models live in
+> [carafe](https://github.com/max-models/carafe) (`carafe.MHD2D`: HLLD,
+> constrained transport with a divergence-free field on patchwork’s
+> refined patches, resistivity, Braginskii conduction, gravity and
+> walls). Its tutorials “MHD on patches” and “MHD test problems” run the
+> Orszag–Tang vortex, the rotor and the blast wave of this sandbox. This
+> repository is kept for reference and will be archived.
+
 A sandbox for learning ideal magnetohydrodynamics by writing and
 improving a solver. It holds a deliberately simple finite-volume code
 for the 2D ideal MHD equations on a periodic grid (first-order Rusanov
